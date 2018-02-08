@@ -1,13 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Insta Collage</title>
-  <script src="assets/js/app.js"></script>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Insta Collage</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="logo" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <img src="assets/img/logo_insta.png">
+        </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <input id="name" type="text" placeholder="Usuario">
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <input id="password" type="password" placeholder="Contraseña">
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <button id="login" class="inactive" disabled="disabled" onclick="location.href='collage.html';">Iniciar sesión</button>
+          <p class="help">¿Has olvidado tu información de inicio de sesión?<a>Obtén ayuda.</a></p>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="tercio"><hr></div>
+          <div class="centro"><p>O</p></div>
+          <div class="tercio"><hr></div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 face">
+          <img src="assets/img/icon_face.png" width="20" height="auto">
+          <a href="https://www.facebook.com/">Iniciar sesión con Facebook</a>
+        </div>
+    </div>
+  </div>
+  <footer>
+    <p class="help">¿No tienes cuenta? <a>Regístrate.</a></p>
+  </footer>
+
+
   
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
 </body>
 </html>
